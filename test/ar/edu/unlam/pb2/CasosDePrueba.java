@@ -14,6 +14,8 @@ public class CasosDePrueba {
 		assertEquals("22/06/2021", producto.getFechaDeElaboracion());
 		assertEquals("31/01/2022", producto.getFechaDeVencimiento());
 		assertEquals("Arcor", ((Galletitas) producto).getMarca());
+		
+		System.out.println("");
 	}
 
 	@Test
